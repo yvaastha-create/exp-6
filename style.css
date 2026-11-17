@@ -1,0 +1,91 @@
+
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Blog Header */
+
+.blog-header {
+    background-color: #3498db;
+    color: white;
+    padding: 50px 20px;
+}
+
+.blog-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Blog Cards */
+
+.card {
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+/* About Section */
+
+.about-section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+
+.contact-section {
+    background: #dbeafe;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 30px;
+}
+
+/* Mobile Media Query */
+
+@media (max-width: 576px) {
+
+    .blog-header h1 {
+        font-size: 25px;
+    }
+
+    .blog-header p {
+        font-size: 14px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+/* Tablet Media Query */
+
+@media (min-width: 577px) and (max-width: 991px) {
+
+    .blog-header h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+}
+
